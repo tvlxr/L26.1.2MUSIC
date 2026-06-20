@@ -1,0 +1,19 @@
+{
+  "schema": 1, // schema version
+  "repository": {
+    "id": "L26.1.2MUSIC", // id of your repository
+    "name": "Music & Melody Remote Albums" // repository name shown in-game
+  },
+  "packs": [
+    {
+      "id": "TYVGM:TYVGM", // id of the album/pack being installed
+      "name": "TYVGM", // name displayed in the in-game album browser, prior to installation
+      "description": "Tys VGM Picks", // description shown on the About page
+      "version": "1.0.0", // version tracking, increment this when releasing a new version
+      "url": "https://github.com/tvlxr/L26.1.2MUSIC/releases/download/VideoGameMusic/TYVGM.zip", // url to a zip file
+      "sha256": "ba3ae3b7c90b7b6e949f9c048d2cf8a293c77974ead737faca0027c85925b61d", // sha256
+      "size": 126136018, // file size
+      "icon": "music_and_melody:textures/album/minecraft_dungeons.png" // icon to be shown prior to installation. Will fallback to the vanilla fallback icon if not present on the client
+    }
+  ]
+}
